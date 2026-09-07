@@ -19,7 +19,7 @@ int main()
         {
             cout<<"YES"<<endl;
         }
-        else if(k>2)
+        else if(k>=2)
         {
             cout<<"YES"<<endl;
         }
