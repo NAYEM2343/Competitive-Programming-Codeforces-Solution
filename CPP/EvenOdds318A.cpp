@@ -6,7 +6,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int n,k;
+    long long n,k;
     cin>>n>>k;
 
     if(k<=(n+1)/2)
@@ -15,7 +15,7 @@ int main()
     }
     else
     {
-        int pos = k-((n+1)/2);
+        long long pos = k-((n+1)/2);
         cout<<(2*pos)<<endl;
     }
     return 0;
