@@ -2,22 +2,21 @@
 using namespace std;
 
 void solve() {
-    
-    int a, b, c;
+    int a,b,c;
     cin>>a>>b>>c;
-    if(a!=b && a!=c)cout<<a<<endl;
-    else if(b!=a && b!=c)cout<<b<<endl;
-    else cout<<c<<endl;
+    int arr[] = {a,b,c};
+    sort(arr, arr+3);
+    cout<<arr[1]<<endl;
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int t;cin>>t;
+    int t;
+    cin>>t;
     while(t--)
     {
         solve();
     }
-    
     return 0;
 }
