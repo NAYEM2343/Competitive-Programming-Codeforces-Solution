@@ -9,7 +9,6 @@ int main() {
     string s;cin>>s;
     string result = "";
 
-    
     for(int i=0;i<s.length();i++)
     {
         if(s.substr(i,3)=="WUB")
