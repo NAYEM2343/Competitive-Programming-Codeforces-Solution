@@ -2,15 +2,9 @@
 using namespace std;
 
 void solve() {
-    int n;cin>>n;
-    if(n%2==0)
-    {
-        cout<<"EVEn"<<endl;
-    }
-    else
-    {
-        cout<<"ODD"<<endl;
-    }
+    int n;
+    cin>>n;
+    cout<<n/2<<endl;
 }
 
 int main() {
