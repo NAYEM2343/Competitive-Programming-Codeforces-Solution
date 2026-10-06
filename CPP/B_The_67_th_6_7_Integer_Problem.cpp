@@ -13,7 +13,7 @@ void solve() {
     {
         sum-=arr[i];
     }
-    //sum *= -1;
+    
     sum += arr[6];
     cout<<sum<<endl;
 }
