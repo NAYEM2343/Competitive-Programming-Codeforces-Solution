@@ -12,14 +12,7 @@ void solve() {
     sort(val.begin(),val.end());
     for(int i=0;i<m;i++)
     {
-        if(val[i]<0)
-        {
-            sum+=val[i];
-        }
-        else
-        {
-            sum-=val[i];
-        }
+        sum+=val[i];
     }
     cout<<abs(sum)<<endl;
 
