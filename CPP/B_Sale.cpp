@@ -12,9 +12,16 @@ void solve() {
     sort(val.begin(),val.end());
     for(int i=0;i<m;i++)
     {
-        sum+=val[i];
+        if(val[i]<0)
+        {
+            sum+=abs(val[i]);
+        }
+        else
+        {
+            break;
+        }
     }
-    cout<<abs(sum)<<endl;
+    cout<<sum<<endl;
 
 }
 
