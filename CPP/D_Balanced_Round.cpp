@@ -4,9 +4,8 @@ using namespace std;
 void solve() {
     int n,k;cin>>n>>k;
     vector<int> val(n);
-    vector<int> store(n);
-    int l=0;
-    int j =0;
+    int max_len=1;
+    int current_len =1;
     for(int i=0;i<n;i++)
     {
         cin>>val[i];
@@ -14,25 +13,17 @@ void solve() {
     sort(val.begin(),val.end(),greater<int>());
     for(int i=0;i<n-1;i++)
     {
-        if(val.size()==1)
-        {
-            cout<<"0"<<endl;
-            return;
-        }
         if(val[i]-val[i+1]<=k)
         {
-            l++;
+            current_len++;
         }
         else
         {
-            l++;
-            j++;
-            store[j]=l;
-            l=0;
+            current_len=1;
         }
+        max_len = max(max_len,current_len);
     }
-    sort(store.begin(),store.end(),greater<int>());
-    int vals = n-store[0];
+    int vals = n-max_len;
     cout<<vals<<endl;
     
 }
