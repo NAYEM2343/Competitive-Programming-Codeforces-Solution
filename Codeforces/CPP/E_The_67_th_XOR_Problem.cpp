@@ -11,7 +11,7 @@ void solve() {
     }
     for(int i=0;i<n;i++)
     {
-        for(int j=i+1;i<n;i++)
+        for(int j=i+1;j<n;j++)
         {
             m = max(m, val[i]^val[j]);
         }
