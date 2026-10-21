@@ -4,13 +4,13 @@ using namespace std;
 void solve() {
     int n;
     cin>>n;
-    int x=0;
-    for(int i=1;i<=10000;i++)
+    int cnt =0; int h=0;
+    while(cnt<=n)
     {
-        x = x + i;
-        cout<<x<<endl;
-        
+        h++;
+        cnt+=(h*(h+1)/2);
     }
+    cout<<h-1<<endl;
     
 }
 
