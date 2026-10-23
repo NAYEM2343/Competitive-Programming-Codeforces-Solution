@@ -4,14 +4,22 @@ using namespace std;
 void solve() {
     int n,q;
     cin>>n>>q;
-    vector<int> arr(n);
-    vector<int> pre_sum(n+1,0);
+    vector<long long> arr(n);
+    vector<long long> pre_sum(n+1,0);
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];
-        pre_sum[i+1] = pre_sum[i] + arr[i];
+        
     }
-    long long old_sum = pre_sum[n];
+    long long old_sum = 0;
+    for(int i=0;i<n;i++)
+    {
+        old_sum += arr[i];
+    }
+    for(int i=1;i<=n;i++)
+    {
+        pre_sum[i] = pre_sum[i-1]+arr[i-1];
+    }
     for(int i=0;i<q;i++)
     {
         int l,r,k;
