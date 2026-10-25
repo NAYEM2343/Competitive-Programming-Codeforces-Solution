@@ -2,12 +2,11 @@
 using namespace std;
 
 void solve() {
-    int n;cin>>n;
-    string s = to_string(n);
-    s = s[0];
-    int dig = stoi(s);
-
-    int val = 10*(dig-1) + (dig*(dig+1))/2;
+    string n;cin>>n;
+    int dig = n[0]-'0'-1;
+    int len = n.size();
+    
+    int val = 10*(dig) + (len*(len+1))/2;
     cout<<val<<endl;
 
 }
