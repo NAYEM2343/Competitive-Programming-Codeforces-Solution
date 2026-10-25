@@ -5,21 +5,20 @@ void solve() {
     int n;cin>>n;
     string s1;cin>>s1;
     string s2;cin>>s2;
-    int cnt =0;
     for(int i=0;i<n;i++)
     {
         if(s1[i]==s2[i] || s1[i]=='G' && s2[i]=='B' ||  s1[i]=='B' && s2[i]=='G' )
         {
-            cnt++;
+            continue;
         }
         else
         {
-            cnt=0;
+            cout<<"NO\n";
+            return;
         }
+        
     }
-    if(cnt !=0)
     cout<<"YES\n";
-    else cout<<"YES\n";
 }
 
 int main() {
