@@ -22,7 +22,7 @@ void solve() {
     }
     for(int i=0;i<q;i++)
     {
-        int l,r,k;
+        long long l,r,k;
         cin>>l>>r>>k;
 
         long long seg_sum = (pre_sum[r]-pre_sum[l-1]);
