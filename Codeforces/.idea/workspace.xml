@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f1ac7dc-ab6a-42fe-940a-32c53bc149bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java/src/CandiesAndTwoSisters1335A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HgpamWBud5mKsu55Tz7yAYlV6e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AmusingJoke141A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AntonAndLetters443A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrivaloftheGeneral114A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bear_BigBrother791A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Beautiful_YEAR271A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatingFunction486A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Domino_piling_50A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Drink200B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Elephant_617A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FoxAndSnake510A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeorgeandAccommodation467A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hit_the_lottery996A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.In_search_of_anEasyProblem1030A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsomniaCure148A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Iwannabetheguy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Magnets344A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pangram520A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Presents136A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Riptide2254A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SoldierandBananas546A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Team231A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Theatre_Square1A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Watermelon_4A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Word59A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.antonanddanik734A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.beautiful_Matrix263A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.divisibilityProblem1328A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.horseshoeonthehoof228A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hulk705A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hult705A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nearlyluckynumber110A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tram116A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.translation41A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ultrafastmathematician61A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vanyaandfence677A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.watermelon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.wrongsubtractions977A.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nayem/IdeaProjects/problem solving&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nayem\IdeaProjects\problem solving\Java\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f1ac7dc-ab6a-42fe-940a-32c53bc149bd" name="Changes" comment="" />
+      <created>1786299634039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786299634039</updated>
+      <workItem from="1786299638321" duration="4792000" />
+      <workItem from="1786466972065" duration="4230000" />
+      <workItem from="1786602617172" duration="4223000" />
+      <workItem from="1786627868122" duration="10950000" />
+      <workItem from="1786688596517" duration="873000" />
+      <workItem from="1786689484972" duration="702000" />
+      <workItem from="1786708034110" duration="5245000" />
+      <workItem from="1786773406319" duration="20000" />
+      <workItem from="1786779278818" duration="777000" />
+      <workItem from="1786785743836" duration="1146000" />
+      <workItem from="1786808164735" duration="2330000" />
+      <workItem from="1786861485970" duration="4768000" />
+      <workItem from="1786885830735" duration="46000" />
+      <workItem from="1786949417990" duration="2092000" />
+      <workItem from="1787061779041" duration="3418000" />
+      <workItem from="1787119718370" duration="1596000" />
+      <workItem from="1787154980445" duration="11130000" />
+      <workItem from="1787225813349" duration="870000" />
+      <workItem from="1787226809719" duration="1690000" />
+      <workItem from="1787248062879" duration="4143000" />
+      <workItem from="1787294101952" duration="238000" />
+      <workItem from="1787321042898" duration="71000" />
+      <workItem from="1787394663459" duration="1322000" />
+      <workItem from="1787410951691" duration="1678000" />
+      <workItem from="1787494291204" duration="3378000" />
+      <workItem from="1787497989291" duration="9494000" />
+      <workItem from="1787517505463" duration="4458000" />
+      <workItem from="1787551711249" duration="513000" />
+      <workItem from="1787593308958" duration="6074000" />
+      <workItem from="1787629598792" duration="3721000" />
+      <workItem from="1787643379530" duration="11387000" />
+      <workItem from="1787670300157" duration="7680000" />
+      <workItem from="1787714246434" duration="3736000" />
+      <workItem from="1787750672917" duration="1210000" />
+      <workItem from="1787752281240" duration="489000" />
+      <workItem from="1787753020479" duration="8707000" />
+      <workItem from="1787770129125" duration="6249000" />
+      <workItem from="1787803951309" duration="7663000" />
+      <workItem from="1787844917688" duration="855000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NextRound_158A.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/vanyaandfence677A.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InsomniaCure148A.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
