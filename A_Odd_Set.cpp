@@ -3,21 +3,21 @@ using namespace std;
 
 void solve() {
     int n;cin>>n;
-    vector<int>vec(2*n);
-    for(int i=0;i<vec.size();i++)
+    int odd =0;int even=0;
+    for(int i=0;i<2*n;i++)
     {
-        cin>>vec[i];
-    }
-    bool val = true;
-    for(int i=0;i<vec.size()-1;i++)
-    {
-        if((vec[i]+vec[i+1])%2!=1)
+        int num;
+        cin>>num;
+        if(num%2!=0)
         {
-            val=false;
+            odd++;
         }
-        i++;
+        else
+        {
+            even++;
+        }
     }
-    if(val==true)
+    if(odd==n && even==n)
     {
         cout<<"Yes"<<endl;
     }
