@@ -31,7 +31,9 @@ void solve() {
         {
             extra.push_back(val);
         }
-        cout<<k<<"\n";
+        
+    }
+    cout<<k<<"\n";
         for(int x:left)
         {
             cout<<x<<" ";
@@ -45,9 +47,6 @@ void solve() {
             cout<<right[j]<<" ";
         }
         cout<<"\n";
-
-
-    }
 }
 
 int main() {
