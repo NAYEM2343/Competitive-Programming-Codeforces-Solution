@@ -6,23 +6,17 @@ void solve() {
     cin>>n;
     string s;
     cin>>s;
-    int B=0;
-    int R=0;
-    for(int i=0;i<n-1;i++)
+    int st =0;
+    char ex ='R';
+    for(int i=0;i<n;i++)
     {
-        if(s[i]=='B' && s[i+1]=='B')
+        if(s[i]!=ex)
         {
-            B+=2;
-            i++;
+            st++;
         }
-        if(s[i]=='R' && s[i+1]=='R')
-        {
-            R+=2;
-            i++;
-        }
-
+        ex = (s[i]=='R') ? 'B' :'R';
     }
-    cout<<max(B,R)<<endl;
+    cout<<st<<endl;
 }
 
 int main() {
