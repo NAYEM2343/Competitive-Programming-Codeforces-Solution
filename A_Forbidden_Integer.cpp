@@ -3,7 +3,7 @@ using namespace std;
 
 void solve() {
     int n,k,x;cin>>n>>k>>x;
-    if(n%2==1 && x==1 && x==k)
+    if(n%2==1 && x==1 || x==k)
     {
         cout<<"NO"<<endl;
         return;
