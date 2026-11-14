@@ -2,29 +2,29 @@
 using namespace std;
 
 void solve() {
-    int n;cin>>n;
-    vector<int > arr(n);
+    long long n;cin>>n;
+    vector<long long > arr(n);
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];
     }
-    int pos=0;int neg =0;
+    long long  pos=0;long long  neg =0;
     for(int i=0;i<n;i++)
     {
-        if(arr[i]==-1)
-        {
-            neg++;
-        }
-        else
+        if(arr[i]==1)
         {
             pos++;
         }
+        else
+        {
+            neg++;
+        }
     }
-    int op =0;
+    long long op =0;
     while(pos<neg || neg%2==1)
     {
         op++;
-        neg++;
+        neg--;
         pos++;
     }
     cout<<op<<endl;
