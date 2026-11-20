@@ -20,7 +20,6 @@ void solve() {
     move +=(a-c);
     cout<<move<<endl;
 
-
 }
 
 int main() {
