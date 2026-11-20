@@ -9,26 +9,30 @@ void solve() {
     {
         cin>>val[i];
     }
+    long long total =0;
     long long one =0;
-    long long two =0;
     for(long long i=0;i<n;i++)
     {
-        if(val[i]==1)
-        {
+       total += val[i];
+       if(val[i]==1)
+       {
             one++;
-        }
-        else
-        {
-            two++;
-        }
+       }
     }
-    if(one%2==0 && two%2==0)
+    if(total%2 !=0)
     {
-        cout<<"YES"<<endl;
+        cout<<"NO"<<endl;
+        return;
+    }
+    long long half = total/2;
+    
+    if(half%2==1 && one ==0)
+    {
+        cout<<"NO"<<endl;
     }
     else
     {
-        cout<<"NO"<<endl;
+        cout<<"YES"<<endl;
     }
 }
 
