@@ -14,17 +14,13 @@ void solve() {
 
     for(long long i=0;i<n-1;i++)
     {
+        
         if(value[i]%2==value[i+1]%2)
         {
             ans++;
         }
-        else
-        {
-            total+= ans;
-            ans =0;
-        }
     }
-    cout<<total<<endl;
+    cout<<ans<<endl;
 }
 
 int main() {
